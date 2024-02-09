@@ -23,7 +23,7 @@ public class YoutubeDl {
     public YoutubeDl(String url, String ruta, Stage primaryStage) {
         this.url = url;
         this.ruta = ruta;
-        this.primaryStage=primaryStage;
+        setPrimaryStage(Stage primaryStage);
     }
 
     public void setPrimaryStage(Stage primaryStage) {
